@@ -12,7 +12,7 @@
 **Problem Statement:**
 <p align="justify">Financial institutions require a predictive model to inform their decision-making process regarding credit issuance to new clients. By leveraging historical data, this model aims to provide actionable insights that facilitate prudent lending decisions while minimising risks.</p>
 
-**Data:**
+**Data Source:**
 <p align="justify">The project utilizes a CSV dataset located within the same repository. While variable names are self-explanatory, detailed documentation regarding variable categories is not provided. This absence does not impede the analysis process. Additionally, the project includes an attached R script, "fun_utils.R," containing essential functions utilised throughout the project.</p>
 
 **Conclusion:**
