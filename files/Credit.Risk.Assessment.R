@@ -18,18 +18,18 @@ set.seed(123)
 
 {r}
 # Loading dataset
-df <- read.csv('credit_dataset.csv')
+df <- read.csv('../data/credit_dataset.csv')
 
 # Checking data types
 glimpse(df)
 
-# Visualizing the dataset
+# Visualising the dataset
 View(df)
 
 # Calculating correlations between numeric variables and target variable
 df_cor <- cor(df[,c(1,3,6,14)])
 
-# Visualizing correlations
+# Visualizing correlation values
 df_cor
 
 # Plotting correlations
@@ -152,7 +152,7 @@ df.bal$credit.rating <- as.integer(as.character(df.bal$credit.rating))
 # Calculating correlations
 df.bal_cor <- cor(df.bal[,c(1,3,6,14)])
 
-# Visualizing correlations
+# Visualizing correlation values
 df.bal_cor
 
 # Plotting correlations
@@ -176,8 +176,7 @@ hist(as.numeric(df[df$credit.rating == '1',]$age), breaks = 5)
 hist(df.bal[df.bal$credit.rating == '0',]$age, breaks = 5)
 hist(df.bal[df.bal$credit.rating == '1',]$age, breaks = 5)
 
-# Preparing plotting area to receive four plots in one area
-par(mfrow=c(2,2))
+
 
 # Calculating the means age for both datasets (df and df.bal), considering both target labels
 mean(as.numeric(df[df$credit.rating == '0',]$credit.duration.months))
@@ -191,8 +190,7 @@ hist(as.numeric(df[df$credit.rating == '1',]$credit.duration.months), breaks = 5
 hist(df.bal[df.bal$credit.rating == '0',]$credit.duration.months, breaks = 5)
 hist(df.bal[df.bal$credit.rating == '1',]$credit.duration.months, breaks = 5)
 
-# Preparing plotting area to receive four plots in one area
-par(mfrow=c(2,2))
+
 
 # Calculating the means age for both datasets (df and df.bal), considering both target labels
 mean(as.numeric(df[df$credit.rating == '0',]$credit.amount))
