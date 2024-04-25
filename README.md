@@ -1,4 +1,4 @@
-**Title:** *Credit Grant Risk Prediction Model: Enhancing Financial Decision Making with Machine Learning*
+<h3>Title: Credit Grant Risk Prediction Model: Enhancing Financial Decision Making with Machine Learning</h3>
 
 **Introduction:**
 <p align="justify">This project demonstrates the creation of a machine learning model designed to predict whether financial institutions should offer credit to new clients. It acts as a crucial resource for financial decision-makers who aim to reduce risks and enhance lending strategies. The project was completed using the RStudio IDE, which is based on the R language, along with several essential packages needed to carry out all tasks. These tasks included data munging, exploratory analysis, feature engineering, feature selection, and the development and evaluation of machine learning models. Various algorithms and predictors were tested to identify the most accurate models.</p>
